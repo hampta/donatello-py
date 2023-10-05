@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "donatello-py"
+version = "0.0.1"
+authors = [{ name="hampta" }]
+description = "Python wrapper for the Donatello API"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hampta/donatello-py"
+"Bug Tracker" = "https://github.com/hampta/donatello-py/issues"
+
+[project.scripts]
+donatello = "donatello_py.__main__:main"
