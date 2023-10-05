@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "donatello-py"
-version = "0.0.1"
+version = "1.0.0"
 authors = [{ name="hampta" }]
 description = "Python wrapper for the Donatello API"
 readme = "README.md"
