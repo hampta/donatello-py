@@ -1,16 +1,17 @@
-.. helloWorld documentation master file, created by
-   sphinx-quickstart on Fri Jul 17 10:38:59 2020.
+.. donatello-py documentation master file, created by
+   sphinx-quickstart on Thu Oct  5 21:56:57 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to helloWorld's documentation!
-======================================
+Welcome to donatello-py's documentation!
+========================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   autodoc
+   donatello
+   donatello.models
 
 
 Indices and tables
