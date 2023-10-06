@@ -37,7 +37,7 @@ extras_require = {
         'sphinx==4.4.0',
         'sphinxcontrib_trio==1.1.2',
         'sphinxcontrib-websupport',
-        'sphinx-rtd-theme==1.3.0 '
+        'sphinx-rtd-theme==1.3.0',
         'typing-extensions>=4.3,<5',
     ],
     'speed': [
