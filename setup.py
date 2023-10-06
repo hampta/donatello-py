@@ -34,10 +34,11 @@ with open('README.md') as f:
 
 extras_require = {
     'docs': [
-        'mkdocs',
-        'mkdocs-material',
-        'sphinx',
-        'sphinx_rtd_theme',
+        'sphinx==4.4.0',
+        'sphinxcontrib_trio==1.1.2',
+        'sphinxcontrib-websupport',
+        'typing-extensions>=4.3,<5',
+        'sphinx-inline-tabs',
     ],
     'speed': [
         'ujson>=3.5.4',
