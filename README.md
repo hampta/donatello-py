@@ -21,10 +21,9 @@ Simple python wrapper for the Donatello API.
 pip install donatello-py
 ```
 
-For speedup install [ujson](https://pypi.org/project/ujson/)
-
+For speedup: 
 ```bash
-pip install ujson
+pip install donatello-py[speed]
 ```
 
 ## Basic Usage
