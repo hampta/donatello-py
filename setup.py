@@ -37,7 +37,7 @@ extras_require = {
         'mkdocs',
         'mkdocs-material',
         'sphinx',
-        'sphinx_rtd_them',
+        'sphinx_rtd_theme',
     ],
     'speed': [
         'ujson>=3.5.4',
@@ -55,7 +55,6 @@ extras_require = {
 
 packages = [
     'donatello',
-    'donatello.models',
 ]
 
 setup(
@@ -64,7 +63,7 @@ setup(
     url='https://github.com/hampta/donatello-py',
     project_urls={
         'Documentation': 'https://donatello-py.readthedocs.io/en/latest/',
-        'Issue tracker': 'https ://github.com/hampta/donatello-py/issues',
+        'Issue tracker': 'https://github.com/hampta/donatello-py/issues',
     },
     version=version,
     packages=packages,
