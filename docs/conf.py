@@ -69,19 +69,12 @@ sys.path.insert(0, os.path.abspath('..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'builder',
     'sphinx.ext.autodoc',
     'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinxcontrib_trio',
     'sphinx_inline_tabs',
-    'details',
-    'exception_hierarchy',
-    'attributetable',
-    'resourcelinks',
-    'nitpick_file_ignorer',
-    'colour_preview',
 ]
 
 autodoc_member_order = 'bysource'
