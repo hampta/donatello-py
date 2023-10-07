@@ -1,11 +1,13 @@
-# 💸 Donatello-py
-
-[![Upload Python Package](https://github.com/hampta/donatello-py/actions/workflows/python-publish.yml/badge.svg)](https://github.com/hampta/donatello-py/actions/workflows/python-publish.yml)
-[![PyPi Version](https://img.shields.io/pypi/v/donatello-py.svg)](https://pypi.org/project/donatello-py/)
-[![PyPi Downloads](https://img.shields.io/pypi/dm/donatello-py.svg)](https://pypi.org/project/donatello-py/)
-[![PyPi License](https://img.shields.io/pypi/l/donatello-py.svg)](https://pypi.org/project/donatello-py/)
-
-Simple python wrapper for the Donatello API.
+<div align="center">
+<img src=https://raw.githubusercontent.com/hampta/donatello-py/main/assets/logo.png alt="Donatello-py logo" />
+<br>
+<h3>Simple python wrapper for the Donatello API.</h3>
+<a href="https://pypi.org/project/donatello-py/"> <img height="20" src="https://img.shields.io/pypi/v/donatello-py" alt="PyPi Version" /> </a>
+<a href="https://pypi.org/project/donatello-py/"> <img height="20"src="https://img.shields.io/pypi/dm/donatello-py" alt="PyPi Downloads" /> </a>
+<a href="https://pypi.org/project/donatello-py/"> <img height="20" src="https://img.shields.io/pypi/l/donatello-py" alt="PyPi License" /> </a>
+<a href="https://pypi.org/project/donatello-py/"> <img height="20 "src="https://img.shields.io/pypi/pyversions/donatello-py" alt="PyPi Python versions" /> </a>
+<a href="https://donatello-py.readthedocs.io/en/latest/"> <img height="20" src="https://readthedocs.org/projects/donatello-py/badge/?version=latest" alt="Read the Docs" /> </a>
+</div>
 
 ##  Features
 
