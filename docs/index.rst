@@ -1,15 +1,6 @@
 💸 Donatello-py Documentation
 ==============================
 
-Index
------
-
-.. toctree::
-   :maxdepth: 2
-
-   donatello
-   donatello.models
-
 Basic Usage
 ===========
 
@@ -120,6 +111,15 @@ Examples
 
 You can find more examples
 `here <https://github.com/hampta/donatello-py/tree/main/examples>`__.
+
+API Reference
+=============
+
+.. toctree::
+   :maxdepth: 10
+
+   donatello
+   donatello.models
 
 
 Contributing

@@ -1,14 +1,6 @@
 donatello package
 =================
 
-Subpackages
------------
-
-.. toctree::
-   :maxdepth: 4
-
-   donatello.models
-
 Submodules
 ----------
 

@@ -13,8 +13,6 @@ logging.basicConfig(
     format="[%(asctime)s] %(levelname)s: %(message)s", level=logging.INFO)
 logging.getLogger("requests").setLevel(logging.WARNING)
 
-API_VERSION = "v1"
-
 
 class AsyncDonatello(BaseClient):
     def __init__(self,

@@ -1,7 +1,6 @@
 <div align="center">
 <img src=https://raw.githubusercontent.com/hampta/donatello-py/main/assets/logo.png alt="Donatello-py logo" />
 <br>
-<h3>Simple python wrapper for the Donatello API.</h3>
 <a href="https://donatello.to/hampta"><img  src="https://img.shields.io/badge/donatello.to-donate-blue?style=for-the-badge" /></a>
 <a href="https://pypi.org/project/donatello-py/"> <img   src="https://img.shields.io/pypi/v/donatello-py?style=for-the-badge" alt="PyPi Version" /> </a>
 <a href="https://pypi.org/project/donatello-py/"> <img src="https://img.shields.io/pypi/pyversions/donatello-py?style=for-the-badge" alt="PyPi Python versions" /> </a>
@@ -9,9 +8,10 @@
 <a href="https://donatello-py.readthedocs.io/en/latest/"> <img   src="https://img.shields.io/readthedocs/donatello-py?style=for-the-badge" alt="Read the Docs" /> </a>
 <a href="https://pypi.org/project/donatello-py/"> <img   src="https://img.shields.io/pypi/dm/donatello-py?style=for-the-badge" alt="PyPi Downloads" /> </a>
 <a href="https://pypi.org/project/donatello-py/"> <img   src="https://img.shields.io/pypi/l/donatello-py?style=for-the-badge" alt="PyPi License" /> </a>
+<h3>🐍 Python wrapper for the Donatello API.</h3>
 </div>
 
-##  Features
+## ✨ Features
 
 - Full type hints
 - Client info
@@ -19,7 +19,8 @@
 - Get clients
 - Long polling
 - Add Async support
-## Installation
+- 
+## 🔗 Installation
 
 ```bash 
 pip install donatello-py
@@ -30,11 +31,11 @@ For speedup:
 pip install donatello-py[speed]
 ```
 
-## Basic Usage
+## 🧑‍🏭 Basic Usage
 
 Get and activate your API key [here](https://donatello.to/panel/doc-api).
 
-#### Sync 
+#### ⛓️ Sync 
 
 ```python
 from donatello import Donatello
@@ -51,7 +52,7 @@ print(client.get_donates(page=1, per_page=10))
 print(client.get_clients())
 ```
 
-#### Async
+#### ⛓️ Async
 
 ```python
 from donatello import AsyncDonatello
@@ -66,7 +67,7 @@ async def main():
 asyncio.run(main())
 ```
 
-## Long polling
+## 🥏 Long polling
 
 For use long polling you need to create widget [here](https://donatello.to/panel/alert-widget) and get widget id from url.
 
@@ -78,7 +79,7 @@ https://donatello.to/widget/<WIDGET_ID>/token/<YOUR_API_KEY>
 
 ### Code example
 
-#### Sync
+#### ⛓️ Sync
 
 ```python
 from donatello import Donatello
@@ -99,7 +100,7 @@ def donate(donate: Donate):
 client.start()
 ```
 
-#### Async
+#### ⛓️ Async
 
 ```python
 from donatello import AsyncDonatello
@@ -119,16 +120,20 @@ async def ready(user):
     
 client.start()
 ```
-## Examples
+## 📚 Docs
+
+You can find docs [here](https://donatello-py.readthedocs.io/en/latest/).
+
+## 📝 Examples
 
 You can find more examples [here](https://github.com/hampta/donatello-py/tree/main/examples).
 
 
-## License
+## 📄 License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## TODO
+## 📋 TODO
 
 - [x] Add more examples
 - [x] Add docs
@@ -136,6 +141,6 @@ You can find more examples [here](https://github.com/hampta/donatello-py/tree/ma
 - [ ] Goal, Top, interactive widgets?
 
 
-## Contributing
+## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
