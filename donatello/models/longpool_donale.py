@@ -34,7 +34,7 @@ class LongpoolDonate(BaseModel):
         return f"<LongpoolDonate client_name={self.client_name} message={self.message} amount={self.amount} currency={self.currency} source={self.source} image={self.image} sound={self.sound} video={self.video} interaction_media={self.interaction_media} interaction_media_start_time={self.interaction_media_start_time} goal_widget_name={self.goal_widget_name} manually_approved={self.manually_approved} ban={self.ban} is_published={self.is_published} created_at={self.created_at} is_subscription={self.is_subscription} uploaded_voice={self.uploaded_voice} name={self.name}>"
 
     def __repr__(self) -> Dict[str, Union[str, int, bool, Datetime]]:
-        return self.model_dump()
+        return f"<LongpoolDonate client_name={self.client_name} message={self.message} amount={self.amount} currency={self.currency} source={self.source} image={self.image} sound={self.sound} video={self.video} interaction_media={self.interaction_media} interaction_media_start_time={self.interaction_media_start_time} goal_widget_name={self.goal_widget_name} manually_approved={self.manually_approved} ban={self.ban} is_published={self.is_published} created_at={self.created_at} is_subscription={self.is_subscription} uploaded_voice={self.uploaded_voice} name={self.name}>"
 
     def __lt__(self: LongpoolDonate, other: LongpoolDonate) -> bool:
         return self.amount < other.amount

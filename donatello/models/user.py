@@ -23,7 +23,7 @@ class User(BaseModel):
         return Datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
 
     def __str__(self) -> str:
-        return f"<User nickname={self.nickname} id={self.id} page={self.page} is_active={self.is_active} is_public={self.is_public} donates={self.donates} created_at={self.created_at}>"
+        return f"<User nickname={self.nickname} id={self.public_id} page={self.page} is_active={self.is_active} is_public={self.is_public} donates={self.donates} created_at={self.created_at}>"
 
     def __repr__(self) -> Dict[str, Union[str, bool, UserDonates, Datetime]]:
         return self.model_dump()

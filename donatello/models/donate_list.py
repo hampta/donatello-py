@@ -24,11 +24,11 @@ class DonateList(BaseModel):
     def __getitem__(self, item: int) -> Donate:
         return self.content[item]
 
-    def __repr__(self) -> Dict[str, Union[int, bool, List[Donate]]]:
-        return self.model_dump()
-
     def __len__(self) -> int:
         return len(self.content)
 
     def __str__(self) -> str:
+        return f"<DonateList content={self.content} page={self.page} size={self.size} num={self.num} first={self.first} last={self.last} total={self.total}>"
+    
+    def __repr__(self) -> Dict[str, Union[int, bool, List[Donate]]]:
         return f"<DonateList content={self.content} page={self.page} size={self.size} num={self.num} first={self.first} last={self.last} total={self.total}>"

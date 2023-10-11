@@ -25,7 +25,7 @@ class Donate(BaseModel):
         return f"<Donate id={self.id} client_name={self.client_name} message={self.message} amount={self.amount} currency={self.currency} goal={self.goal} is_published={self.is_published} created_at={self.created_at}>"
 
     def __repr__(self) -> Dict[str, Union[str, int, bool, Datetime]]:
-        return self.model_dump()
+        return f"<Donate id={self.id} client_name={self.client_name} message={self.message} amount={self.amount} currency={self.currency} goal={self.goal} is_published={self.is_published} created_at={self.created_at}>"
 
     def __lt__(self: Donate, other: Donate) -> bool:
         return self.amount < other.amount

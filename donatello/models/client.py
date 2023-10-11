@@ -10,8 +10,8 @@ class Client(BaseModel):
     client_name: str = Field(alias="clientName")
     total_amount: int = Field(alias="totalAmount")
 
-    def __repr__(self) -> Dict[str, Union[str, int]]:
-        return self.model_dump()
+    def __repr__(self) -> str:
+        return f"<Client client_name={self.client_name} total_amount={self.total_amount}>"
 
     def __str__(self) -> str:
         return f"<Client client_name={self.client_name} total_amount={self.total_amount}>"

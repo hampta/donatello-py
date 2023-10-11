@@ -109,13 +109,13 @@ class Donatello(BaseClient):
         self._user = User(**self._request("GET", self._api_url, "me"))
         return self._user
 
-    def get_donates(self, page: int = 0, size: int = 20) -> DonateList:
+    def get_donates(self, page: int = 0, per_page: int = 20) -> DonateList:
         """Get donates
             Returns :class: `DonateList` with donates
         """
         return DonateList(**self._request("GET", self._api_url, "donates", params={
             "page": page,
-            "size": size
+            "size": per_page
         }))
 
     def get_clients(self) -> ClientList:

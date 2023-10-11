@@ -14,7 +14,7 @@ class UserDonates(BaseModel):
         return f"<UserDonates total_amount={self.total_amount} total_count={self.total_count}>"
 
     def __repr__(self) -> Dict[str, int]:
-        return self.model_dump()
+        return f"<UserDonates total_amount={self.total_amount} total_count={self.total_count}>"
 
     def __lt__(self, other: UserDonates) -> bool:
         return self.total_amount < other.total_amount

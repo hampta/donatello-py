@@ -17,11 +17,8 @@ class ClientList(BaseModel):
     def __getitem__(self, item: int) -> Client:
         return self.clients[item]
 
-    def __repr__(self) -> Dict[str, List[Client]]:
-        return self.model_dump()
-
+    def __repr__(self) -> str:
+        return f"<ClientList clients={self.clients}>"
+    
     def __len__(self) -> int:
         return len(self.clients)
-
-    def __str__(self) -> str:
-        return f"<ClientList clients={self.clients}>"
