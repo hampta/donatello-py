@@ -18,8 +18,8 @@
 - Get donates
 - Get clients
 - Long polling
-- Add Async support
-- 
+- Async support
+
 ## 🔗 Installation
 
 ```bash 
@@ -138,7 +138,8 @@ You can find more examples [here](https://github.com/hampta/donatello-py/tree/ma
 - [x] Add more examples
 - [x] Add docs
 - [ ] Add tests
-- [ ] Goal, Top, interactive widgets?
+- [ ] Websocket based long polling
+~~- [ ] Goal, Top, interactive widgets?~~ Never
 
 
 ## 🤝 Contributing
