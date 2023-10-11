@@ -1,7 +1,7 @@
 from donatello import Donatello
 from donatello.models import Donate, User
 
-client = Donatello("b29fec0e6fd45df05f9645946b80f538", "651de593663c4d142ea2ad77")
+client = Donatello("YOUR_API_KEY", "YOUR_WIDGET_ID")
 
 @client.on_ready
 def on_start(user: User):

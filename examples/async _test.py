@@ -1,6 +1,6 @@
 from donatello.async_client import AsyncDonatello
 
-client = AsyncDonatello("b29fec0e6fd45df05f9645946b80f538", "651de593663c4d142ea2ad77")
+client = AsyncDonatello("YOUR_API_KEY", "YOUR_WIDGET_ID")
 
 @client.on_donate
 async def donate(donate):
