@@ -139,7 +139,6 @@ You can find more examples [here](https://github.com/hampta/donatello-py/tree/ma
 - [x] Add docs
 - [ ] Add tests
 - [ ] Websocket based long polling
-
 - [ ] ~~Goal, Top, interactive widgets?~~ Never
 
 
