@@ -46,7 +46,7 @@ client = Donatello("YOUR_API_KEY")
 print(client.get_me())
 
 # Get donates
-print(client.get_donates(page=1, per_page=10))
+print(client.get_donates(page=0, per_page=00))
 
 # Get clients
 print(client.get_clients())
@@ -61,7 +61,7 @@ client = AsyncDonatello("YOUR_API_KEY")
 
 async def main():
     print(await client.get_me())
-    print(await client.get_donates(page=1, per_page=10))
+    print(await client.get_donates(page=0, per_page=00))
     print(await client.get_clients())
 
 asyncio.run(main())
