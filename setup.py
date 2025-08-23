@@ -55,7 +55,7 @@ extras_require = {
     # ],
 }
 
-packages = find_packages(include=['donatello', 'donatello.*']),
+packages = find_packages(include=['donatello', 'donatello.*'])
 
 setup(
     name='donatello-py',
