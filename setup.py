@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import re
 
 requirements = []
@@ -55,9 +55,7 @@ extras_require = {
     # ],
 }
 
-packages = [
-    'donatello',
-]
+packages = find_packages(include=['donatello', 'donatello.*']),
 
 setup(
     name='donatello-py',
